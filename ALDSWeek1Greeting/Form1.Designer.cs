@@ -28,13 +28,58 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.btnHello = new System.Windows.Forms.Button();
+            this.lblMessage = new System.Windows.Forms.Label();
+            this.txtName = new System.Windows.Forms.TextBox();
+            this.SuspendLayout();
+            // 
+            // btnHello
+            // 
+            this.btnHello.AccessibleName = "btnHello";
+            this.btnHello.Location = new System.Drawing.Point(372, 283);
+            this.btnHello.Name = "btnHello";
+            this.btnHello.Size = new System.Drawing.Size(75, 23);
+            this.btnHello.TabIndex = 0;
+            this.btnHello.Text = "Say hello";
+            this.btnHello.UseVisualStyleBackColor = true;
+            // 
+            // lblMessage
+            // 
+            this.lblMessage.AutoSize = true;
+            this.lblMessage.Location = new System.Drawing.Point(372, 230);
+            this.lblMessage.Name = "lblMessage";
+            this.lblMessage.Size = new System.Drawing.Size(35, 13);
+            this.lblMessage.TabIndex = 1;
+            this.lblMessage.Text = "label1";
+            // 
+            // txtName
+            // 
+            this.txtName.AccessibleName = "txtName";
+            this.txtName.Location = new System.Drawing.Point(372, 130);
+            this.txtName.Name = "txtName";
+            this.txtName.Size = new System.Drawing.Size(100, 20);
+            this.txtName.TabIndex = 2;
+            // 
+            // Form1
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.txtName);
+            this.Controls.Add(this.lblMessage);
+            this.Controls.Add(this.btnHello);
+            this.Name = "Form1";
             this.Text = "Form1";
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
         }
 
         #endregion
+
+        private System.Windows.Forms.Button btnHello;
+        private System.Windows.Forms.Label lblMessage;
+        private System.Windows.Forms.TextBox txtName;
     }
 }
 
