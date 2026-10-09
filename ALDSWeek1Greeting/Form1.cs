@@ -19,7 +19,8 @@ namespace ALDSWeek1Greeting
 
         private void btnHello_Click(object sender, EventArgs e)
         {
-            lblMessage.Text = "Hello " + txtName.Text;
+            string name = txtName.Text;
+            lblMessage.Text = "Hello " + name.ToUpper();
         }
 
         private void btnClear_Click(object sender, EventArgs e)
