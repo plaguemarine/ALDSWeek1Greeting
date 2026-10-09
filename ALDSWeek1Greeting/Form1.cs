@@ -16,5 +16,10 @@ namespace ALDSWeek1Greeting
         {
             InitializeComponent();
         }
+
+        private void btnHello_Click(object sender, EventArgs e)
+        {
+            lblMessage.Text = "Hello " + txtName.Text;
+        }
     }
 }

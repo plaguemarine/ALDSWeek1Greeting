@@ -42,15 +42,16 @@
             this.btnHello.TabIndex = 0;
             this.btnHello.Text = "Say hello";
             this.btnHello.UseVisualStyleBackColor = true;
+            this.btnHello.Click += new System.EventHandler(this.btnHello_Click);
             // 
             // lblMessage
             // 
             this.lblMessage.AutoSize = true;
             this.lblMessage.Location = new System.Drawing.Point(372, 230);
             this.lblMessage.Name = "lblMessage";
-            this.lblMessage.Size = new System.Drawing.Size(35, 13);
+            this.lblMessage.Size = new System.Drawing.Size(31, 13);
             this.lblMessage.TabIndex = 1;
-            this.lblMessage.Text = "label1";
+            this.lblMessage.Text = "Hello";
             // 
             // txtName
             // 
