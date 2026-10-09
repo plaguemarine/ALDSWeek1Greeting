@@ -37,7 +37,7 @@
             // btnHello
             // 
             this.btnHello.AccessibleName = "btnHello";
-            this.btnHello.Location = new System.Drawing.Point(372, 283);
+            this.btnHello.Location = new System.Drawing.Point(348, 173);
             this.btnHello.Name = "btnHello";
             this.btnHello.Size = new System.Drawing.Size(75, 23);
             this.btnHello.TabIndex = 0;
@@ -48,7 +48,7 @@
             // lblMessage
             // 
             this.lblMessage.AutoSize = true;
-            this.lblMessage.Location = new System.Drawing.Point(372, 230);
+            this.lblMessage.Location = new System.Drawing.Point(369, 105);
             this.lblMessage.Name = "lblMessage";
             this.lblMessage.Size = new System.Drawing.Size(31, 13);
             this.lblMessage.TabIndex = 1;
@@ -59,15 +59,16 @@
             this.txtName.AccessibleName = "txtName";
             this.txtName.Location = new System.Drawing.Point(372, 130);
             this.txtName.Name = "txtName";
-            this.txtName.Size = new System.Drawing.Size(100, 20);
+            this.txtName.Size = new System.Drawing.Size(127, 20);
             this.txtName.TabIndex = 2;
+            this.txtName.Text = "Please Enter Your Name";
             // 
             // btnClear
             // 
             this.btnClear.BackColor = System.Drawing.Color.Red;
             this.btnClear.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnClear.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.btnClear.Location = new System.Drawing.Point(462, 283);
+            this.btnClear.Location = new System.Drawing.Point(438, 173);
             this.btnClear.Name = "btnClear";
             this.btnClear.Size = new System.Drawing.Size(75, 23);
             this.btnClear.TabIndex = 3;

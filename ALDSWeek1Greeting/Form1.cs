@@ -26,6 +26,7 @@ namespace ALDSWeek1Greeting
         private void btnClear_Click(object sender, EventArgs e)
         {
             lblMessage.Text = "Hello";
+            txtName.Text = "";
         }
     }
 }
